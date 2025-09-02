@@ -74,7 +74,7 @@ AI-technology enables computers to handle tasks we usually associate with human 
 
 Both the artificial intelligence and machine learning can be built on different models and trained on different data sets. The chosen model and training data set will affect greatly on how the AI performs and what kind of solutions it gives to the users. We will dive further into this topic a bit later, but for now just make a mental note that there is not a singular "AI" but various different AI's that work in different ways.
 
-### What is geospatial data?
+### 2.2 What is geospatial data?
 #### Unique features of geospatial data
 Geospatial data refers to data that has information tied to specific locations on earth. Simple examples of this could be data of real world structures like roads and buildings. Geospatial data answers to the where and what questions. For each feature, the data includes information about location (where) as well as attribute information, which describes the feature in the location (what).
 
@@ -82,14 +82,64 @@ The location information in geospatial data can come in different formats, inclu
 
 Analyzing geospatial data requires expertise but can provide value in many industries. When combined with AI, geospatial data enables companies to generate insights, solve problems and find trends. In businesses with a location factor, understanding complex and heterogeneous data is beneficial for informed decision-making. The right AI tools and partners can help geospatial data promote business and create new opportunities.
 
-Below we have an example of a satellite image and a map of the same area. The map is a visualization of geospatial data and illustrates information about roads, bodies of water and place names. 
+Below we have an example of a satellite image and a map of the same area. The map is a visualization of geospatial data and illustrates information about roads, bodies of water and place names (See Satellite image form Landsat 8 from the [Earth Explorer](https://earthexplorer.usgs.gov/) (June 2023, Finland), the real image and the vector format)
 
 <img width="597" height="566" alt="image" src="https://github.com/user-attachments/assets/a44d0aab-10f3-412f-8b2d-ee435dbddbc2" />
-*Satellite image form Landsat 8 from the [Earth Explorer](https://earthexplorer.usgs.gov/) (June 2023, Finland)*
 
 <img width="601" height="600" alt="image" src="https://github.com/user-attachments/assets/9227bc6a-fd13-4d2f-8510-4360429f3d4a" />
-*Same area from the same place, this time in **vector format**.*
 
+### 2.3 Three models of ML
+#### Why is ML important?
+A subfield of AI, machine learning, centers on algorithms that allow systems to learn patterns and relationships from datasets, enabling them to generalize this knowledge to new data.
 
+Machine learning is an essential part of utilising GeoAI in business, because it enables organisations to analyse and interpret efficiently vast amounts of geospatial data. That happens through automating data analysis, detecting patterns and providing data-driven decisions in real time. 
 
+When integrating location data with other data sources — such as customer behaviour, logistics, social trends, or environmental factors — organisations can not only optimise existing operations but also uncover new business opportunities.
 
+Here beneath you can find information on the most common training approaches in machine learning. This is important, in order for machine learning models to recognize relationships between different variables in a dataset, adapt to new inputs and improve over time, ensuring usability and efficiency.
+
+#### Supervised Learning: From data to predictions
+Supervised learning is one of the most common training approaches in machine learning. It works with **labeled datasets**. This means data where information has tags or labels to help a computer understand what it is: for example, a selection of geospatial data where each feature is labeled as either "road" or "building," depending on what the feature represents in the real world.
+
+Now, if you give a new feature to the computer, it can use the knowledge it has learned from those labels and try to **predict an appropriate label** for it. The algorithm can also gradually **reduce errors in its predictions**.
+
+Applications of supervised learning with geospatial data include object detection and land cover classification: 
+
+- **Object detection** means, that machine learning models can identify objects in satellite images or aerial photos. This is beneficial especially for forest mapping, urban planning and traffic monitoring.
+- **Land cover classification** means, that machine learning models can distinguish different land use types based on satellite images or other geospatial data sources. This is beneficial especially for climate research, environmental conservation and agricultural optimization.
+
+One limitation of supervised learning is its reliance on labeled data. Annotating large geospatial datasets to train the model is time-consuming and resource-intensive. It requires a lot of manual work from those who create the datasets. 
+
+Finally, the resulting learning model can be used on similar datasets or tasks in the future — a model that is trained to identify urban areas from satellite images cannot identify trees from drone imagery.
+
+#### Unsupervised Learning: Finding hidden patterns
+Unsupervised learning does **not require labeled data**. Instead, it **identifies patterns, clusters, or structures** in the dataset based solely on the inherent properties of the data.
+
+The key techniques include the grouping of similar data points. This can be, for example, identifying similar objects from a dataset that has numerous different features. This reduces manual work and helps to identify **similar data points from vast datasets**.
+
+The unsupervised learning can be also used to **simplify high-dimensional datasets** while retaining critical information for analysis. This can be, for example, reducing the input of 22 bands of satellite imagery to using only the few bands that are actually critical for land cover classification while removing the unnecessary data for the task.
+
+While unsupervised learning excels at exploring unstructured datasets, its lack of predefined labels makes it harder to evaluate model accuracy or relevance.
+
+#### Reinforcement Learning (RL): Optimizing spatial decisions
+Reinforcement learning, or RL, is all about **teaching an algorithm** (e.g. a path-planning algorithm) **to make decisions step by step by interacting with its environment** (e.g. a geospatial map). The algorithm learns by trial and error and is given feedback for its choices: rewards for good choices and penalties for bad ones.
+
+Finally, the RL will **refine its decision-making to maximize the rewards**. The feedback is usually programmatically defined, meaning the reward system must be designed separately from the machine learning model itself.
+
+Unlike supervised learning, RL doesn’t rely on labeled data — it figures out the best strategies on its own as it explores and learns from its actions. 
+
+Applications of RL in geospatial data include path planning, meaning optimising delivery routes for logistics or identifying optimal evacuation routes during natural disasters.
+
+While RL holds immense potential, its computational complexity and need for extensive exploration can pose challenges, particularly with high-dimensional geospatial datasets. And, as pointed out earlier, the rewarding system has to be programmed aside of the actual algorithm.
+
+#### How to get started?
+Machine learning is an intelligent tool to utilise location and other data from different sources, bringing benefits to decision-making and business planning.
+
+Supervised learning is the most common machine learning training model, as it uses clear input data and expected outcomes. It is good for predictions, classifications and analytics, such as customer segmentation.
+
+You can get started with the steps you find in the image below, starting from the left. What do you think, would that process work for you? 
+1. Identify your business challenge. Where can machine learning provide most value?
+2. Collect quality data, which is relevant and clean
+3. Test first with basic supervised leaning models to understand, how modles cna leverage the organisation's data
+4. Utilise existing AI tools that are available
+5. Go for it! ML is continuous learning process, start with a pilot project and find out what works for your.
