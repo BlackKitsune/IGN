@@ -39,5 +39,57 @@ The use of GeoAI can be seen from a business and startup perspective. Depending 
 
 Combining AI with location data and technology is a powerful duo. Interpreting large and heterogeneous data sets brings efficiency to decision making and helps identify new solutions on various different industries; serving customers better, improving sustainability and productivity.
 
+### 1.2 Introduction to the course content
+Here is an overview of the course content and the main learning targets.
+
+1. **Orientation: Topic and the Course**
+In the first section, we will explain the advantages of combining AI and geospatial data for business purposes. To reinforce the message, we have provided examples of in which multiple fields GeoAI can be used. Some short videos also demonstrate, why this course is worth taking.  In the end, you will receive practical information of the structure, learning methods and contributors of the course.
+
+2. **AI and Geospatial Data**
+Next, we will cover the fundamentals of AI, machine learning, and geospatial data. You will learn these concepts and that there it is not just one single 'AI', but rather various types of AI. You understand that they work in different ways and are used for different purposes. For example, different machine learning approaches enable user to address a broad spectrum of real-world needs. Generative AI, on the other hand, provides new solutions and tools.
+
+3. **Geospatial Applications of AI**
+In the third section, you will learn of different GeoAI applications for the main datatypes in the geospatial field. Therefore you will know, what the different data types are and where they can provide benefits. For example, AI accelerates the processing of geospatial imagery, reducing the need for time-consuming manual work. On the other hand, AI-powered natural language processing (NLP) tools can transform written information into actionable outcomes and insights.
+
+4. **Trust, Risks and Regulation in Geospatial AI**
+You will learn, how the use of geospatial AI raises ethical concerns regarding surveillance, bias, informed consent and environmental impact. Using AI with spatial data can also lead to issues such as outdated information, privacy breaches and reduced human supervision. For example, the EU AI Act will regulate the use of AI based on different risk levels. It is important to understand these challenges, in order to avoid them when implementing GeoAI strategies. 
+
+5. **GeoAI Skillbase and Tips for the future**
+In the final section, we will introduce you to important GeoAI business skills. Knowing these skills will help you take the next steps in your organisation. We also provide some additional tips and introduce the Location Innovation Hub offering. You will learn, what qualities you need for creating successful GeoAI applications and grow your Business. Finally, the course will be summarised.
+
+6. **Summary and Final test**
+At the end, there is a final test and you need to achieve a result of 70% or higher to pass. Prior learning tasks after sections 2-4 will help you to succeed. You can also refresh your memory with essential GeoAI Concepts (optional).
+
+7. **Course Certificate and Feedback**
+After passing the test you can download the Course Certificate. Also, feel free to give us feedback in Chapter 7.3. 
+
+## 2. AI and Geospatial data
+In this Section, we will explore the fundamentals of artificial intelligence (AI) and its connection to machine learning. We will explore how AI interacts with geospatial data, focusing on its unique characteristics from an AI perspective. We will also address some challenges of applying GeoAI. 
+
+### 2.1 What is AI?
+AI-technology enables computers to handle tasks we usually associate with human intelligence, like solving problems, making decisions, or understanding language. A subfield of AI is machine learning (ML), where computers don’t just follow given instructions — they actually learn from data and improve their performance over time. Deep Learning (DL) is a subfield of ML that is based on artificial neural networks.
+
+<img width="272" height="279" alt="image" src="https://github.com/user-attachments/assets/88055c0e-05b6-40d5-83ad-3689d347ae62" />
+*Ilustration of AI and some of its subfields and their relations: ML, DL, GenAI and LLM.*
+
+Both the artificial intelligence and machine learning can be built on different models and trained on different data sets. The chosen model and training data set will affect greatly on how the AI performs and what kind of solutions it gives to the users. We will dive further into this topic a bit later, but for now just make a mental note that there is not a singular "AI" but various different AI's that work in different ways.
+
+### What is geospatial data?
+#### Unique features of geospatial data
+Geospatial data refers to data that has information tied to specific locations on earth. Simple examples of this could be data of real world structures like roads and buildings. Geospatial data answers to the where and what questions. For each feature, the data includes information about location (where) as well as attribute information, which describes the feature in the location (what).
+
+The location information in geospatial data can come in different formats, including satellite images, GPS readings, and LiDAR scans. LiDAR (Light Detection and Ranging) is a distance measuring method. It works by measuring how much time it takes for a laser to reach a surface or an object and reflect ‘back’. Different types of geospatial data require different tools to analyze them.
+
+Analyzing geospatial data requires expertise but can provide value in many industries. When combined with AI, geospatial data enables companies to generate insights, solve problems and find trends. In businesses with a location factor, understanding complex and heterogeneous data is beneficial for informed decision-making. The right AI tools and partners can help geospatial data promote business and create new opportunities.
+
+Below we have an example of a satellite image and a map of the same area. The map is a visualization of geospatial data and illustrates information about roads, bodies of water and place names. 
+
+<img width="597" height="566" alt="image" src="https://github.com/user-attachments/assets/a44d0aab-10f3-412f-8b2d-ee435dbddbc2" />
+*Satellite image form Landsat 8 from the [Earth Explorer](https://earthexplorer.usgs.gov/) (June 2023, Finland)*
+
+<img width="601" height="600" alt="image" src="https://github.com/user-attachments/assets/9227bc6a-fd13-4d2f-8510-4360429f3d4a" />
+*Same area from the same place, this time in **vector format**.*
+
+
 
 
